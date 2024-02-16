@@ -130,14 +130,21 @@ Thi
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+```
+1001
+1002
+1003
+```
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
-
-cat < newfile 
+```
+ Ram
+ tom
+ Joe
+```
+cat > newfile1
 ```
 Hello world
 hello world
